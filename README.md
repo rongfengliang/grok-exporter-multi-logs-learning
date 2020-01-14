@@ -15,9 +15,9 @@ docker-compose up -d
 ```code
 touch  example/rong.log
 touch  example/examples.log
-echo "30.07.2016 14:37:03 alice 1.5" > example/rong.log
-echo "30.07.2016 14:38:03 alice 1.5" > example/rong.log
-echo "30.07.2016 14:39:03 rong 1.5" > example/examples.log
+echo "30.07.2016 14:37:03 alice 1.5" >> example/rong.log
+echo "30.07.2016 14:38:03 alice 1.5" >> example/rong.log
+echo "30.07.2016 14:39:03 rong 1.5" >> example/examples.log
 ```
 
 * view metrics
